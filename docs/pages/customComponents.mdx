@@ -1,0 +1,37 @@
+import { Callout } from 'nextra/components'
+
+# Custom Components
+
+Custom Components include the creation and documentation of reusable components from a composition.
+
+<Callout>
+  By default, components are “stateless” (server components) - but custom coded components (see: SDK) can use the “use client” directive to be able to have local state.
+</Callout>
+
+## Composition Components
+Composition Components make it easy to assemble visual components into reusable building blocks. You can create a composition component from a composition or from scratch.
+
+To create a composition component from composition, right-click on a component in your tree, select `New
+Component` and provide it with a name. The component and its children (if any) are now a reusable composition component. 
+
+Alternatively, you can also create a composition component from scratch by selecting the `+` button from the composition panel and choosing the "Composition Component" option. 
+
+When you create a composition component, a dedicated component workspace will be created in your project, making it easy to manage and edit.
+
+## Code Components
+
+The Code Component allows you to inject custom ReactJS code directly into your project. To use it, create a new Code Component within your composition, providing a dedicated space to write your ReactJS code. You can import libraries, create custom components, define state and props, and add event handlers, enabling you to tailor your project precisely to your needs.
+
+## Property Management 
+
+Component properties are a way to pass data from parent to child components. Props are read-only and help make your components more reusable and dynamic. 
+
+You can add, edit, and remove properties in the component properties panel. 
+
+## Exposing properties
+
+Properties can be exposed to a parent component by selecting the expose option of a property within a custom component, creating a dynamic property bind from parent to child.
+
+## Documenting Components 
+
+Documenting components and their properties can be done from the component configuration menu. To document the selected component, open the component configuration panel.
